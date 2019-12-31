@@ -7,3 +7,5 @@ const mapDispatchToProps = ( dispatch ) => {
         addCar: (car) => dispatch(addCar(car))
     }
 }
+
+export default connect(null,mapDispatchToProps)(AddCar)
